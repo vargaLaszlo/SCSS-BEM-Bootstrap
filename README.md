@@ -88,6 +88,8 @@ sass/
 |   |– _jquery-ui.scss
 |   …
 |
+|– _bootstrap-variables.scss	# To override bootstrap settings
+|– _bootstrap-includes.scss	# To include Bootstrap modules separately
 |– _variables.scss
 |– _extends.scss
 |– _mixins.scss
