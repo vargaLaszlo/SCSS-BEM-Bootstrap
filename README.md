@@ -2,7 +2,7 @@
 
 ## SCSS Pattern
 
-```
+```scss
 .block {
 	/*...*/
 	
@@ -30,7 +30,7 @@
 
 Place this to .vscode/settings.json :
 
-```
+```json
 "todohighlight.keywords": [
 	"DEBUG:",
 	"REVIEW:",
