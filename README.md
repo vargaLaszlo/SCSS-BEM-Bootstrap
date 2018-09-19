@@ -1,4 +1,4 @@
-# SCSS+(A)BEM+Bootstrap
+# SCSS+(A)BEM+Bootstrap4
 
 ## SCSS Pattern
 
