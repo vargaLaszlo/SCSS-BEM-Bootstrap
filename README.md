@@ -32,22 +32,24 @@ Place this to .vscode/settings.json :
 
 ```json
 "todohighlight.keywords": [
-	"DEBUG:",
-	"REVIEW:",
-	{
-	    "text": "// Block modifiers",
-	    "color": "#000",
-	    "backgroundColor": "#4dabf7",
-	    "borderRadius": "4px",
-	    "border": "2px solid #74c0fc",
-	},
-	{
-	    "text": "// Elements",
-	    "color": "#000",
-	    "backgroundColor": "#3bc9db",
-	    "borderRadius": "4px",
-	    "border": "2px solid #66d9e8",
-	}
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "// Block modifiers",
+            "color": "#000",
+            "backgroundColor": "#4dabf7",
+            "borderRadius": "4px",
+            "border": "2px solid #74c0fc",
+            "overviewRulerColor": "#74c0fc"
+        },
+        {
+            "text": "// Elements",
+            "color": "#000",
+            "backgroundColor": "#3bc9db",
+            "borderRadius": "4px",
+            "border": "2px solid #66d9e8",
+            "overviewRulerColor": "#66d9e8"
+        }
 ],
 ```
 ## File Structe
