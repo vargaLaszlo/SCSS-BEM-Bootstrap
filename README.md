@@ -99,9 +99,10 @@ sass/
 
 ## Resources
 
-- https://css-tricks.com/abem-useful-adaptation-bem/
-- http://atomicdesign.bradfrost.com/chapter-1/
-- https://sass-guidelin.es/
-- https://www.lullabot.com/articles/bem-atomic-design-a-css-architecture-worth-loving
+* http://getbem.com/
+* https://css-tricks.com/abem-useful-adaptation-bem/
+* http://atomicdesign.bradfrost.com/chapter-1/
+* https://sass-guidelin.es/
+* https://www.lullabot.com/articles/bem-atomic-design-a-css-architecture-worth-loving
 
 
