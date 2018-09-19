@@ -24,6 +24,22 @@
 		/*...*/
 	}
 }
+```
+Modify element by block modifier
+
+```scss
+.block {
+	/*...*/
+	
+	// Elements
+	&__element {
+		/*...*/
+		
+		.-block-modifier & {
+			/*...*/
+		}
+	}
+}
 
 ```
 ### TODO Highlight VSCode plugin settings to mark comments in SCSS files
