@@ -2,6 +2,7 @@
 
 ## File Structe
 
+```
 sass/
 |
 |– component/
@@ -42,6 +43,7 @@ sass/
 |– _mixins.scss
 |– _functions.scss
 |– app.scss  
+```
 
 ## SCSS Pattern
 
