@@ -25,7 +25,7 @@
 	}
 }
 ```
-Modify element by block modifier
+Modify element by block modifier:
 
 ```scss
 .block {
