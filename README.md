@@ -26,7 +26,7 @@
 }
 
 ```
-### TODO Highlight settings to mark comments in SCSS files
+### TODO Highlight VSCode plugin settings to mark comments in SCSS files
 
 Place this to .vscode/settings.json :
 
