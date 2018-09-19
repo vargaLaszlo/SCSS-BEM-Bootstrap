@@ -1,4 +1,4 @@
-# SCSS BEM Bootstrap
+# SCSS+(A)BEM+Bootstrap
 
 ## SCSS Pattern
 
@@ -105,4 +105,5 @@ sass/
 * https://sass-guidelin.es/
 * https://www.lullabot.com/articles/bem-atomic-design-a-css-architecture-worth-loving
 
+* https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
 
