@@ -71,3 +71,33 @@ sass/
 }
 
 ```
+### TODO Highlight settings to mark comments in SCSS files
+
+Place this to .vscode/settings.json :
+
+```
+"todohighlight.keywords": [
+	"DEBUG:",
+	"REVIEW:",
+	{
+	    "text": "// Block modifiers",
+	    "color": "#000",
+	    "backgroundColor": "#4dabf7",
+	    "borderRadius": "4px",
+	    "border": "2px solid #74c0fc",
+	},
+	{
+	    "text": "// Elements",
+	    "color": "#000",
+	    "backgroundColor": "#3bc9db",
+	    "borderRadius": "4px",
+	    "border": "2px solid #66d9e8",
+	}
+],
+```
+
+## Resources
+
+http://atomicdesign.bradfrost.com/chapter-1/
+https://sass-guidelin.es/
+
