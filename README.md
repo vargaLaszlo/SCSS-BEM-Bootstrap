@@ -7,7 +7,7 @@
 	/*...*/
 	
 	// Block modifiers
-	& .-modifier {
+	& .--modifier {
 		/*...*/
 	}
 	
@@ -15,7 +15,7 @@
 	&__element {
 		/*...*/
 		
-		& .-modifier2 {
+		& .--modifier2 {
 			/*...*/
 		}
 	}
@@ -25,23 +25,10 @@
 	}
 }
 ```
-Modify element by block modifier:
 
-```scss
-.block {
-	/*...*/
-	
-	// Elements
-	&__element {
-		/*...*/
-		
-		.-block-modifier & {
-			/*...*/
-		}
-	}
-}
+[Codepen example](https://codepen.io/_lacus/pen/gdqwxJ?editors=1100)
 
-```
+
 ### TODO Highlight VSCode plugin settings to mark comments in SCSS files
 
 Place this to .vscode/settings.json :
