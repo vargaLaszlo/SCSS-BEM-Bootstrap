@@ -26,7 +26,7 @@
 }
 ```
 
-[Codepen example](https://codepen.io/_lacus/pen/gdqwxJ?editors=1100)
+[:code: :pen: example](https://codepen.io/_lacus/pen/gdqwxJ?editors=1100)
 
 
 ### TODO Highlight VSCode plugin settings to mark comments in SCSS files
