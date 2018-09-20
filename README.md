@@ -52,7 +52,15 @@ Place this to .vscode/settings.json :
             "borderRadius": "4px",
             "border": "2px solid #66d9e8",
             "overviewRulerColor": "#66d9e8"
-        }
+        },
+	{
+	    "text": "// Block variables",
+            "color": "#000",
+            "backgroundColor": "#38d9a9",
+            "borderRadius": "4px",
+            "border": "2px solid #63e6be",
+            "overviewRulerColor": "#63e6be"
+	}
 ],
 ```
 ## File Structe
