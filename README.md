@@ -2,6 +2,16 @@
 
 ## SCSS Pattern
 
+### Classes
+
+
+Block: | `blockName`
+Element: | `blockName__elementName`
+Block + modifier | `blockName --modifierName`
+Element + modifier | `blockName__elementName --modifierName`
+
+
+
 ```scss
 .block {
 	/*...*/
