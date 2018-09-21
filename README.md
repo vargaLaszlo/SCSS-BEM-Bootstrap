@@ -4,12 +4,12 @@
 
 ### Classes
 
-| | |
+
 |---:|:---:|
-|Block: | `blockName`|
-|Element: | `blockName__elementName`|
-|Block + modifier | `blockName --modifierName`|
-|Element + modifier | `blockName__elementName --modifierName`|
+|Block:| `blockName`|
+|Element:| `blockName__elementName`|
+|Block + modifier:| `blockName --modifierName`|
+|Element + modifier:| `blockName__elementName --modifierName`|
 
 
 
