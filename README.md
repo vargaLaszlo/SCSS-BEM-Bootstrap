@@ -11,27 +11,32 @@
 |Block + modifier:| `blockName --modifierName`|
 |Element + modifier:| `blockName__elementName --modifierName`|
 
-
+```html
+<div class="blockName --modifierName">
+	<div class="block__elementName --modifierName2"></div>
+	<div class="block__elementName2"></div>
+</div>
+```
 
 ```scss
-.block {
+.blockName {
 	/*...*/
 	
 	// Block modifiers
-	& .--modifier {
+	& .--modifierName {
 		/*...*/
 	}
 	
 	// Elements
-	&__element {
+	&__elementName {
 		/*...*/
 		
-		& .--modifier2 {
+		& .--modifierName2 {
 			/*...*/
 		}
 	}
 	
-	&__element2 {
+	&__elementName2 {
 		/*...*/
 	}
 }
