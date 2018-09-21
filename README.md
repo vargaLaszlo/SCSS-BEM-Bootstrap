@@ -13,8 +13,8 @@
 
 ```html
 <div class="blockName --modifierName">
-	<div class="block__elementName --modifierName2"></div>
-	<div class="block__elementName2"></div>
+	<div class="blockName__elementName --modifierName2"></div>
+	<div class="blockName__elementName2"></div>
 </div>
 ```
 
