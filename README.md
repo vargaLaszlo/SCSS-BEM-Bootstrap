@@ -5,7 +5,7 @@
 ### Classes
 
 |Type|Class|
-|---:|:---:|
+|---:|:---|
 |Block:| `blockName`|
 |Element:| `blockName__elementName`|
 |Block + modifier:| `blockName -modifierName`|
