@@ -8,12 +8,12 @@
 |---:|:---:|
 |Block:| `blockName`|
 |Element:| `blockName__elementName`|
-|Block + modifier:| `blockName --modifierName`|
-|Element + modifier:| `blockName__elementName --modifierName`|
+|Block + modifier:| `blockName -modifierName`|
+|Element + modifier:| `blockName__elementName -modifierName`|
 
 ```html
-<div class="blockName --modifierName">
-	<div class="blockName__elementName --modifierName2"></div>
+<div class="blockName -modifierName">
+	<div class="blockName__elementName -modifierName2"></div>
 	<div class="blockName__elementName2"></div>
 </div>
 ```
@@ -23,7 +23,7 @@
 	/*...*/
 	
 	// Block modifiers
-	& .--modifierName {
+	& .-modifierName {
 		/*...*/
 	}
 	
@@ -31,7 +31,7 @@
 	&__elementName {
 		/*...*/
 		
-		& .--modifierName2 {
+		& .-modifierName2 {
 			/*...*/
 		}
 	}
