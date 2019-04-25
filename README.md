@@ -79,7 +79,7 @@ Place this to .vscode/settings.json :
 	}
 ],
 ```
-## File Structe
+## Basic SCSS file Structe 
 
 ```
 sass/
@@ -124,6 +124,66 @@ sass/
 |– _mixins.scss
 |– _functions.scss
 |– app.scss  
+```
+
+## Atomic SCSS file Structe 
+
+
+```
+sass/
+|
+|– base/
+|   |– _base.scss
+|   |– _typo.scss
+|   |– _reset.scss
+|   …
+|
+|– vendors/
+|   |– bootsrap/
+|   |– bootsrap-extend/
+|   |– fontawsome/
+|   |– jquery-ui.scss
+|   …
+|
+|– abstracts/
+|   |– _bootstrap-variables.scss	# To override bootstrap settings
+|   |– _bootstrap-includes.scss		# To include Bootstrap modules separately
+|   |– _variables.scss
+|   |– _extends.scss
+|   |– _mixins.scss
+|   |– _functions.scss
+|   |– app.scss
+|   …
+|
+|– atoms/
+|   |– _button.scss
+|   |– _link.scss
+|   |– _input.scss
+|   |– _dropdown.scss
+|   |– _image.scss
+|   …  
+|
+|– molecules/
+|   |– _cover.scss 
+|   |– _grid.scss
+|   |– _form.scss
+|   |– _search.scss
+|   …  
+|
+|– organisms/
+|   |– _carousel.scss 
+|   |– _navigation.scss
+|   |– _header.scss
+|   |– _footer.scss
+|   |– _sidebar.scss
+|   …  
+|
+|– templates/
+|   |– _home.scss
+|   |– _contact.scss
+|   |– _blog.scss
+|   |– _products.scss
+|   …  
 ```
 
 ## Resources
