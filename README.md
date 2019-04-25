@@ -152,7 +152,6 @@ sass/
 |   |– _extends.scss
 |   |– _mixins.scss
 |   |– _functions.scss
-|   |– app.scss
 |   …
 |
 |– atoms/
@@ -184,6 +183,9 @@ sass/
 |   |– _blog.scss
 |   |– _products.scss
 |   …  
+|
+|– app.scss
+|
 ```
 
 ## Resources
